@@ -1,10 +1,5 @@
 export class Book {
-  private _author: string;
-  private _title: string;
-
-  constructor(author: string, title: string) {
-    this._author = author;
-    this._title = title;
+  constructor(private _author: string, private _title: string) {
   }
 
   get author(): string {
